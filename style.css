@@ -1,0 +1,50 @@
+/* general styles */
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #dedbdb;
+    color: #100B0A;
+}
+
+/* font styles */
+h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 260px;
+    position: relative;
+    margin-left: 50px;
+}
+h2{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+p{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+/* main page styles */
+#hero-img{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 400px;
+}
+.thick-hr{
+    height: 10px;
+    color: #100B0A;
+    position: absolute;
+    background-color: #100B0A;
+    border: #100B0A solid 2px;
+    top: 530px;
+    left: 0;
+    right: 0;
+}
